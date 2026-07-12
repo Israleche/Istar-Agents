@@ -1,4 +1,40 @@
+# Backups & temp
 *.bak
 *.bak-*
+*backup*/
+byok-backup-*/
+
+# Secrets (NEVER upload to repo)
+.env
+*.key
+secrets.json
+api-keys.json
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build / cache output
+dist/
+build/
+.cache/
+out/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Editor / OS noise
+*.swp
+*~
+.vscode/
+*.code-workspace
