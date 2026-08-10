@@ -4,37 +4,52 @@
 *backup*/
 byok-backup-*/
 
-# Secrets (NEVER upload to repo)
-.env
-*.key
-secrets.json
-api-keys.json
-
 # Dependencies
 node_modules/
+.pnp/
+.pnp.js
 .pnpm-store/
+__pycache__/
+*.pyc
+*.py[cod]
+.venv/
+venv/
 
 # Build / cache output
 dist/
 build/
-.cache/
 out/
+.cache/
+coverage/
+*.tsbuildinfo
+.vite/
+.next/
+.turbo/
 
-# Python cache
-__pycache__/
-*.py[cod]
+# Secrets & environment (NEVER upload to repo)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials/
+secrets/
+secrets.json
+api-keys.json
 
-# OS
-.DS_Store
+# Editor / OS noise
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
 Thumbs.db
+Desktop.ini
 desktop.ini
+.DS_Store
 
 # Logs
 *.log
 logs/
-
-# Editor / OS noise
-*.swp
-*~
-.vscode/
-*.code-workspace
+npm-debug.log*
