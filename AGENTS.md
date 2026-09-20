@@ -1,4 +1,4 @@
-# AGENTS.md — Contributor Conventions for `istar-code-agent`
+# AGENTS.md — Contributor Conventions for `Istar-Agents`
 
 Instructions for AI agents and humans working in THIS repository.
 

@@ -6,7 +6,7 @@ options:
   id: istar-code
   version: 6.0.0
   author: Istar Code Team
-  repository: github.com/Israleche/istar-code-agent
+  repository: github.com/Israleche/Istar-Agents
   capabilities:
     - deterministic_execution
     - context_budgeting
